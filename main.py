@@ -8,7 +8,7 @@ pg.init()
 clock=pg.time.Clock()
 screen=pg.display.set_mode((WIDTH,HEIGHT))
 level=Level(level_map,screen)
-background=pg.image.load('/home/aadityakaushik/Downloads/bg.jpg')
+background=pg.image.load('/home/aaditya/Pictures/bg.png')
 background=pg.transform.scale(background,(800,600))
 while True:
     for e in pg.event.get():

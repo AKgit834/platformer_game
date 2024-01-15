@@ -11,7 +11,7 @@ class Spikes(pg.sprite.Sprite):
 		self.rect  = self.image.get_rect(topleft=pos)
 
 	def import_enemy_asset(self):
-		full_path='/home/aadityakaushik/mine/vs/py/pygame/platformer/resources/enemy/'
+		full_path='/home/aaditya/system/vs/py/pygame/platformer/resources/enemy/'
 		self.enemy_tile={'spike':[]}
 		for t in self.enemy_tile.keys():
 			full_path+=t

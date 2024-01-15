@@ -1,15 +1,15 @@
 level_map=[
 	' X                            ',
-    ' X                          ',
-    ' X         S                ',
+    ' X                            X X X X X X X X X  X',
+    ' X        SS                ',
     ' X       XXXX             X',
     ' X  P             X     SX X',
-    ' XXXX             X    SX   X',
-    ' X               SX    X     X',
-    ' XXXXXXXXXX  XXXXXXXX  XXXXXXXXXXXXXX',
+    ' XXXX             X     X   X',
+    ' X               SXS  SX     X',
+    ' XXXXXXXXXX  XXXXXXXX XXXXXXXX                      XXXXX',
 ]
 
-WIDTH=600
+WIDTH=800
 tile_size=64
 HEIGHT=len(level_map)*tile_size
 

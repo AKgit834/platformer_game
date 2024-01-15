@@ -23,11 +23,9 @@ class Player(pg.sprite.Sprite):
 		self.on_left=False
 		self.on_right=False
 		self.health=100
-		
-
-		
+	
 	def import_character_asset(self):
-		char_path='/home/aadityakaushik/mine/vs/py/pygame/platformer/resources/'
+		char_path='/home/aaditya/system/vs/py/pygame/platformer/resources/'
 		self.animations={'idle':[],'walk':[],'jump':[]}
 		for animation in self.animations.keys():
 			full_path=char_path+animation
@@ -91,6 +89,10 @@ class Player(pg.sprite.Sprite):
 			print('game over !!')
 			pg.quit()
 			sys.exit()
+		if self.rect.y>600:
+			print('game over !!')
+			pg.quit()
+			sys.exit()			
 			
 		self.get_input()
 		self.get_status()
